@@ -8,6 +8,6 @@ export function queryAPI(endpoint) {
     }
     weakMap.set(endpoint, (data + 1));
   } else {
-    weakMap.set(endpoint, 1);
+    weakMap.set(endpoint, 0);
   }
 }
